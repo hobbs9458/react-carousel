@@ -1,0 +1,39 @@
+/* .carousel-wrap {
+  width: 500px;
+  height: 500px;
+} */
+
+.carousel {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  /* temp */
+  border: 1px solid rgb(207, 199, 199);
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 500px;
+}
+
+.change-slide-btn {
+  width: 50px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.change-slide-btn-right {
+  right: 0;
+}
